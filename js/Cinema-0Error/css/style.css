@@ -1,0 +1,77 @@
+:root {
+  --basic-color: #390879;
+  --background-basic-color: #4c04ab;
+  --secondary-color: #b8df10;
+  --1200-font-s-10: 10px;
+  --1200-font-s-15: 15px;
+  --1200-font-s-18: 18px;
+  --1200-font-s-20: 20px;
+  --1200-font-s-24: 24px;
+  --1200-font-s-28: 28px;
+  --1200-font-s-30: 30px;
+  --1200-font-s-34: 34px;
+  --1000-font-s-10-8: 8px;
+  --1000-font-s-15-13: 13px;
+  --1000-font-s-18-16: 16px;
+  --1000-font-s-20-18: 18px;
+  --1000-font-s-24-22: 22px;
+  --1000-font-s-28-26: 26px;
+  --1000-font-s-30-28: 28px;
+  --1000-font-s-34-32: 32px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body,
+html {
+  ::-webkit-scrollbar {
+    width: 10.727px;
+    background: var(--secondary-color);
+  }
+  ::-webkit-scrollbar-thumb {
+    width: 3.344px;
+    height: 179.421px;
+    margin: 3px 3.15px 3px 3.15px;
+    border-radius: 5px;
+    background: var(--basic-color);
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    145deg,
+    var(--basic-color) 3.02%,
+
+    #080013 91.88%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 700px) {
+  body,
+  html {
+    ::-webkit-scrollbar {
+      width: 5.727px;
+    }
+  }
+}
+
+/* ____ */

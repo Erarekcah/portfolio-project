@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI images | Salman</title>
+    <link rel="icon" href="img/icon.svg" type="icon/icon-x" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div id="content-home">
+        <div class="log">
+          <a href="#content-home">
+            <img src="img/logo.svg" />
+          </a>
+        </div>
+        <nav class="header-nav">
+          <li><a href="#content-home">HOME</a></li>
+          <li><a href="#content-popular">Popular</a></li>
+          <li><a href="#container-generate">GENERATE</a></li>
+        </nav>
+      </div>
+    </header>
+    <section class="section-1">
+      <div id="content-main">
+        <div class="content-main-1">
+          <div>
+            <p>IMAGINE IT,<br />WE'LL BUILD IT.</p>
+            <img src="img/main-foto-1-text-img.png" class="text-img" />
+          </div>
+        </div>
+        <img src="img/main-foto.png" class="content-main-2" />
+        <div class="content-main-3">
+          <p>Take your chance and<br />generate free Ai photos</p>
+          <div class="content-button">
+            <p>Try Free Now</p>
+            <a href="#container-generate">
+              <button>
+                <div>
+                  <img
+                    src="img/main-foto-2-button-arrow.svg"
+                    class="arrow-img"
+                  />
+                </div>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-middle_footer" id="content-popular">
+      <h1>Popular photos in<span> 0Error.Ai</span></h1>
+      <div class="line-middle__footer"></div>
+    </section>
+    <section class="section-popular">
+      <div class="content-popular">
+        <div class="img">
+          <img src="img/popular-1.png" />
+          <div class="content">
+            <p>
+              blue humanoid avatar with bioluminescent avatar markings dots and
+              patterns on their skin. Pointed elf ears. avatar like hair, hair
+              colour black, sparkling glowing blue eyes, slightly shimmery
+              iridescent blue skin. female, warrior like, magical and mystical,
+              detailed and realistic. Only blue skin tone. Only blue coloured
+              skin. Skin colour all blue.
+            </p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="img/popular-2.png" />
+          <div class="content">
+            <p>
+              friendship hug, from an adventurous boy, who wears a white blouse,
+              a small friendly rabbit and a small friendly bird, in an enchanted
+              forest
+            </p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="img/popular-3.png" />
+          <div class="content">
+            <p>
+              Character portrait of Albert Einstein, standing on stage, side
+              profile, caricature, chibi, kawaii,3d rendering, octane rendering,
+              volumetric light, victorian fashion, metallic, highly-detailed
+              symmetric face, detailed eyes, ultra sharp, highest quality, art
+              by Anja Millen and George Cruikshank and Bordalo II, smooth, sharp
+              focus, trending on artforum, behance hd, kids story book style,
+              muted colors, watercolor style
+            </p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="img/popular-4.png" />
+          <div class="content">
+            <p>
+              Chris Hemsworth as a barbarian from dungeons and dragons, lean
+              muscles, DnD, in the style of realistic and hyper-detailed
+              renderings,dungeons and dragons, 8k, detailed eyes, perfect eyes,
+              epic , dramatic , fantastical, full body , intricate design and
+              details, dramatic lighting, hyperrealism, photorealistic,
+              cinematic, 8k, detailed face, Dramatic photo,epic photo, whole
+              body,barbarian, rage, forest,
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-3">
+      <div id="container-generate">
+        <h1>AI Image Generation</h1>
+        <div class="Number">
+          <h2>Number of pictures</h2>
+          <div class="numberOfPictures">
+            <button type="button" class="number-1">1</button>
+            <button type="button" class="number-2 active-number">2</button>
+            <button type="button" class="number-3">3</button>
+            <button type="button" class="number-4">4</button>
+            <button type="button" class="number-8">8</button>
+          </div>
+        </div>
+        <form class="gen-form">
+          <input
+            type="text"
+            id="user-prompt"
+            ,
+            placeholder="my picture looks like this..."
+            autocomplete="off"
+          />
+          <button type="button" id="generate">generate</button>
+        </form>
+
+        <div class="result">
+          <div id="loading">Generating...</div>
+          <div id="image-grid"></div>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
